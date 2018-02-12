@@ -1,11 +1,13 @@
 Package: minTX
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Minimize the Number of Transactions between Counterparties Needed to
+    Settle Debts
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Miguel Biron Lattes
+Maintainer: Miguel Biron Lattes <miguelbl9@gmail.com>
+Description: The purpose of this package is to solve the problem of minimizing
+    the number of transactions between counterparties that have outstanding
+    debts between them. We use a Linear Programming formulation to tackle it.
+License: MIT
 Encoding: UTF-8
 LazyData: true
