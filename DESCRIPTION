@@ -2,12 +2,15 @@ Package: minTX
 Type: Package
 Title: Minimize the Number of Transactions between Counterparties Needed to
     Settle Debts
-Version: 0.1.0
+Version: 0.0.1
 Author: Miguel Biron Lattes
 Maintainer: Miguel Biron Lattes <miguelbl9@gmail.com>
 Description: The purpose of this package is to solve the problem of minimizing
     the number of transactions between counterparties that have outstanding
     debts between them. We use a Linear Programming formulation to tackle it.
+Imports:
+    lpSolve
 License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
